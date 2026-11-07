@@ -1,0 +1,41 @@
+{
+  "target_groups": {
+    "description": "目标群号",
+    "hint": "一行一个，或逗号分隔；留空表示不发群",
+    "type": "list",
+    "default": [],
+    "items": {
+      "type": "string"
+    }
+  },
+  "target_users": {
+    "description": "目标 QQ 号（私聊）",
+    "hint": "一行一个，或逗号分隔；留空表示不发私聊",
+    "type": "list",
+    "default": [],
+    "items": {
+      "type": "string"
+    }
+  },
+  "allowed_users": {
+    "description": "允许下指令的 QQ 号",
+    "hint": "填你自己的号；留空=谁都能指挥机器人（不建议）",
+    "type": "list",
+    "default": [],
+    "items": {
+      "type": "string"
+    }
+  },
+  "interval_seconds": {
+    "description": "每条之间间隔秒数",
+    "hint": "0 = 不等待，直接连续发送",
+    "type": "int",
+    "default": 0
+  },
+  "collect_hint": {
+    "description": "收内容时回一个数字提示",
+    "hint": "关掉则完全静默收集",
+    "type": "bool",
+    "default": true
+  }
+}

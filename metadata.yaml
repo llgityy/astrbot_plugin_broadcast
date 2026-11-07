@@ -1,0 +1,9 @@
+name: astrbot_plugin_broadcast
+display_name: 批量转发
+desc: 私聊喂内容给机器人，发 /go 后按目标清单逐条转发到多群/多人，原样透传不过模型。
+version: v1.2.0
+author: llgityy
+repo: "https://github.com/llgityy/astrbot_plugin_broadcast"
+astrbot_version: ">=4.5.0"
+support_platforms:
+  - aiocqhttp

@@ -1,0 +1,71 @@
+# ========== 系统 / 编辑器 ==========
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ========== 密钥 / 本地配置 ==========
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+config.local.*
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ========== Node / 前端 ==========
+node_modules/
+dist/
+build/
+.next/
+out/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========== Go / Rust / Java 产物 ==========
+*.exe~
+*.test
+*.out
+target/
+*.class
+*.jar
+!gradle-wrapper.jar
+
+# ========== 日志 / 临时 / 缓存 ==========
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+.gcm*
+
+# ========== 压缩包 / 大文件 ==========
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.iso
+
+# ========== 系统卷册 / 数据库 ==========
+*.sqlite
+*.sqlite3
+*.db-journal
